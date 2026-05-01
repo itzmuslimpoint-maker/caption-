@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Captions \u2014 AI That Edits Like A Professional Editor</title>
+  <meta name="description" content="Captions is the AI video editor that edits your videos like a professional. Add captions, translate, generate AI avatars, and more." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-icon">\u2726</div>
+      Captions
+    </a>
+
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-trigger">
+          Solutions \u25be
+        </button>
+        <div class="nav-dropdown-menu">
+          <a href="#solutions">Enterprise</a>
+          <a href="#solutions">Agencies</a>
+          <a href="#solutions">Small Businesses</a>
+          <a href="#solutions">Content Creators</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-trigger">
+          Resources \u25be
+        </button>
+        <div class="nav-dropdown-menu">
+          <a href="#blog">Blog</a>
+          <a href="#research">Research</a>
+          <a href="#help">Help Center</a>
+          <a href="#careers">Careers</a>
+        </div>
+      </div>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+    </div>
+
+    <div class="nav-actions">
+      <a href="#signup" class="btn btn-secondary btn-sm">Sign in</a>
+      <a href="#signup" class="btn btn-primary btn-sm">Get started free</a>
+    </div>
+
+    <button class="mobile-menu-btn" id="menuBtn" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#features">Features</a>
+  <a href="#solutions">Solutions</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#about">About</a>
+  <a href="#blog">Blog</a>
+  <a href="#signup" class="btn btn-primary" style="margin-top:16px;justify-content:center;">Get started free</a>
+</div>
+
+<!-- ============ HERO SECTION ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+  </div>
+
+  <div style="width:100%;">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Now with AI Avatars & Chat Editor
+      </div>
+
+      <h1 class="hero-title">
+        AI that edits your video<br>
+        <span class="gradient-text">like a professional</span> would.
+      </h1>
+
+      <p class="hero-subtitle">
+        Transform raw footage into fully-edited, stylized videos. Auto-add captions, translate into 30+ languages, generate AI avatars, and more \u2014 in minutes.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#upload" class="btn btn-primary btn-lg">
+          <span>\ud83c\udfac</span> Start editing free
+        </a>
+        <a href="#features" class="btn btn-secondary btn-lg">
+          <span>\u25b6</span> Watch demo
+        </a>
+      </div>
+
+      <div class="hero-stores">
+        <a href="#download" class="store-btn">
+          <span class="store-icon">\ud83c\udf4e</span>
+          <div class="store-text">
+            <div class="store-label">Download on the</div>
+            <div class="store-name">App Store</div>
+          </div>
+        </a>
+        <a href="#download" class="store-btn">
+          <span class="store-icon">\u25b6</span>
+          <div class="store-text">
+            <div class="store-label">Get it on</div>
+            <div class="store-name">Google Play</div>
+          </div>
+        </a>
+        <a href="#signup" class="store-btn">
+          <span class="store-icon">\ud83c\udf10</span>
+          <div class="store-text">
+            <div class="store-label">Use on</div>
+            <div class="store-name">Web Browser</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-value" data-count="10">10M+</div>
+          <div class="hero-stat-label">Videos created</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">100+</div>
+          <div class="hero-stat-label">Languages supported</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">4.8\u2605</div>
+          <div class="hero-stat-label">App Store rating</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">2M+</div>
+          <div class="hero-stat-label">Active creators</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual" style="margin-top:60px;">
+      <div class="hero-image-wrapper">
+        <div class="hero-image-glow"></div>
+        <img src="../generated_images/generated_image_334303c2-17d6-4c1d-ae38-4ae7b3d77ddf_0.png" alt="Captions AI Video Editor Interface" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee-section">
+  <div class="marquee-track" id="marqueeTrack">
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Video Editing</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Auto Captions</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> 100+ Languages</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Avatars</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Voice Clone</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> B-Roll Generator</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Chat Editor</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Eye Contact Fix</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Translate</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Noise Removal</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Music</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Video Ads</span>
+    <!-- duplicate for seamless -->
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Video Editing</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Auto Captions</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> 100+ Languages</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Avatars</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Voice Clone</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> B-Roll Generator</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Chat Editor</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Eye Contact Fix</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Translate</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Noise Removal</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> AI Music</span>
+    <span class="marquee-item"><span class="marquee-dot"></span> Video Ads</span>
+  </div>
+</div>
+
+<!-- ============ TRUSTED BY ============ -->
+<section class="trusted-section">
+  <div class="container">
+    <p class="trusted-label">Trusted by creators at</p>
+    <div class="trusted-logos">
+      <span class="trusted-logo">YouTube</span>
+      <span class="trusted-logo">TikTok</span>
+      <span class="trusted-logo">Instagram</span>
+      <span class="trusted-logo">Spotify</span>
+      <span class="trusted-logo">Netflix</span>
+      <span class="trusted-logo">Forbes</span>
+      <span class="trusted-logo">Bloomberg</span>
+      <span class="trusted-logo">Shopify</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES INTRO ============ -->
+<section class="features-intro" id="features">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\u2726 Features</div>
+      <h2 class="section-title">Captions edits with <span class="gradient-text">taste</span>, not just speed.</h2>
+      <p class="section-subtitle">From raw footage to a polished, publish-ready video \u2014 Captions handles every step with intelligent AI that understands style.</p>
+    </div>
+
+    <div class="features-grid-2">
+      <!-- Card 1 -->
+      <div class="feature-card-large reveal reveal-delay-1">
+        <div class="feature-card-content">
+          <div class="feature-card-icon icon-orange">\ud83c\udfac</div>
+          <h3 class="feature-card-title">From idea to video, in minutes</h3>
+          <p class="feature-card-desc">Captions transforms raw footage into fully-edited, stylized videos. Our AI automatically cuts scenes, overlays B-roll, adds music and transitions \u2014 you just hit export.</p>
+        </div>
+        <img src="../generated_images/generated_image_334303c2-17d6-4c1d-ae38-4ae7b3d77ddf_0.png" alt="AI Video Editing" class="feature-card-img" style="object-position:top;" />
+      </div>
+
+      <!-- Card 2 -->
+      <div class="feature-card-large reveal reveal-delay-2">
+        <div class="feature-card-content">
+          <div class="feature-card-icon icon-purple">\ud83e\uddec</div>
+          <h3 class="feature-card-title">Custom AI avatars to scale fast</h3>
+          <p class="feature-card-desc">Generate talking videos from a single selfie, or create an AI actor from scratch. Switch outfits, backgrounds, even product placements \u2014 without re-recording anything.</p>
+        </div>
+        <img src="../generated_images/generated_image_4cea0f49-77fe-49d3-89ee-7b45ee1be27b_0.png" alt="AI Avatar" class="feature-card-img" />
+      </div>
+    </div>
+
+    <!-- Full-width card -->
+    <div class="feature-card-large feature-card-full reveal" style="display:grid;grid-template-columns:1fr 1fr;overflow:hidden;border-radius:24px;border:1px solid rgba(255,255,255,0.06);background:#111;">
+      <div class="feature-card-content" style="padding:48px;display:flex;flex-direction:column;justify-content:center;">
+        <div class="feature-card-icon icon-blue">\ud83c\udf0d</div>
+        <h3 class="feature-card-title" style="font-size:28px;">All-in-one AI toolkit</h3>
+        <p class="feature-card-desc" style="font-size:16px;margin-bottom:28px;">Animated captions, AI translation, smart noise removal and more \u2014 everything you need to create scroll-stopping content, in a single app.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <span style="padding:6px 14px;background:rgba(255,92,0,0.1);border:1px solid rgba(255,92,0,0.2);border-radius:9999px;font-size:12px;font-weight:600;color:#FF7A2E;">Auto Captions</span>
+          <span style="padding:6px 14px;background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.2);border-radius:9999px;font-size:12px;font-weight:600;color:#C084FC;">AI Translate</span>
+          <span style="padding:6px 14px;background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.2);border-radius:9999px;font-size:12px;font-weight:600;color:#60A5FA;">AI Denoise</span>
+        </div>
+      </div>
+      <img src="../generated_images/generated_image_4ac3c2bd-3427-4d0f-89d9-6957bec409c9_0.png" alt="AI Toolkit" style="width:100%;height:100%;object-fit:cover;max-height:400px;" />
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEMO 1: AI EDIT ============ -->
+<section class="demo-section" id="ai-edit">
+  <div class="container">
+    <div class="demo-layout">
+      <div class="demo-visual reveal">
+        <div class="demo-image-wrapper">
+          <img src="../generated_images/generated_image_334303c2-17d6-4c1d-ae38-4ae7b3d77ddf_0.png" alt="AI Edit Feature" />
+        </div>
+        <div class="demo-floating-badge badge-1">
+          <span class="badge-icon">\u26a1</span>
+          <span class="badge-text">Edited in 2 minutes</span>
+        </div>
+        <div class="demo-floating-badge badge-2">
+          <span class="badge-icon">\ud83c\udfa8</span>
+          <span class="badge-text">50+ Style templates</span>
+        </div>
+      </div>
+
+      <div class="demo-content reveal reveal-delay-2">
+        <div class="section-label">\ud83c\udfac AI Edit</div>
+        <h2 class="demo-title">Turn footage into <span class="gradient-text">finished videos</span> instantly</h2>
+        <p class="demo-desc">AI Edit transforms your raw clips into a complete, polished video that's ready to share. Just pick a style, and our AI handles every cut, transition, and effect automatically.</p>
+
+        <div class="demo-list">
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Automatically cuts & sequences scenes for maximum impact
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Adds cinematic B-roll, overlays and motion graphics
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Inserts perfectly-timed sound effects and music
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            50+ curated styles for every platform and audience
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Export in 4K for YouTube, TikTok, Reels & more
+          </div>
+        </div>
+        <a href="#signup" class="btn btn-primary">Try AI Edit free \u2192</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEMO 2: CHAT EDITOR ============ -->
+<section class="demo-section" style="background:#0d0d0d;padding:100px 0;">
+  <div class="container">
+    <div class="demo-layout reverse">
+      <div class="demo-content reveal">
+        <div class="section-label">\ud83d\udcac Chat Editor</div>
+        <h2 class="demo-title">Edit like you <span class="gradient-text-purple">text</span></h2>
+        <p class="demo-desc">Captions' chat-based editor handles everything from minor tweaks to abstract creative requests. Just describe what you want in plain English, and AI does the rest \u2014 no timeline scrubbing needed.</p>
+
+        <div class="demo-list">
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            "Make this more energetic" \u2014 AI re-paces your video
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            "Remove all the pauses" \u2014 silence trimmed in seconds
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            "Add a dark cinematic look" \u2014 color grade applied instantly
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Handles abstract requests with contextual understanding
+          </div>
+        </div>
+        <a href="#signup" class="btn btn-primary">Try Chat Editor \u2192</a>
+      </div>
+
+      <div class="demo-visual reveal reveal-delay-2">
+        <!-- Chat Editor Mockup -->
+        <div style="background:#111;border:1px solid rgba(255,255,255,0.07);border-radius:24px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,0.5);">
+          <div style="padding:16px 20px;background:#161616;border-bottom:1px solid rgba(255,255,255,0.05);display:flex;align-items:center;gap:10px;">
+            <div style="width:28px;height:28px;background:linear-gradient(135deg,#7C3AED,#C084FC);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;">\ud83d\udcac</div>
+            <span style="font-size:14px;font-weight:600;">Chat Editor</span>
+            <span style="margin-left:auto;padding:3px 10px;background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.2);border-radius:9999px;font-size:11px;font-weight:600;color:#C084FC;">MAX</span>
+          </div>
+          <div style="padding:20px;display:flex;flex-direction:column;gap:14px;min-height:380px;">
+            <!-- AI message -->
+            <div style="display:flex;gap:10px;align-items:flex-start;">
+              <div style="width:28px;height:28px;background:linear-gradient(135deg,#7C3AED,#C084FC);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;">\u2726</div>
+              <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);border-radius:4px 16px 16px 16px;padding:12px 16px;font-size:13px;color:rgba(255,255,255,0.7);line-height:1.6;max-width:320px;">
+                Hi! I'm your AI editor. Upload a video and tell me what you'd like to do with it. I can cut scenes, add effects, change the mood, add captions \u2014 anything you need!
+              </div>
+            </div>
+            <!-- User message -->
+            <div style="display:flex;gap:10px;align-items:flex-start;justify-content:flex-end;">
+              <div style="background:rgba(255,92,0,0.1);border:1px solid rgba(255,92,0,0.2);border-radius:16px 4px 16px 16px;padding:12px 16px;font-size:13px;color:rgba(255,255,255,0.85);line-height:1.6;max-width:280px;">
+                Make this more cinematic and remove all the awkward pauses
+              </div>
+              <div style="width:28px;height:28px;background:#333;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;">\ud83d\udc64</div>
+            </div>
+            <!-- AI response -->
+            <div style="display:flex;gap:10px;align-items:flex-start;">
+              <div style="width:28px;height:28px;background:linear-gradient(135deg,#7C3AED,#C084FC);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;">\u2726</div>
+              <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);border-radius:4px 16px 16px 16px;padding:12px 16px;font-size:13px;color:rgba(255,255,255,0.7);line-height:1.6;max-width:320px;">
+                Done! I've:<br>
+                \u2705 Applied a cinematic color grade<br>
+                \u2705 Removed 7 awkward pauses<br>
+                \u2705 Added smooth transitions<br>
+                \u2705 Adjusted audio pacing<br><br>
+                <span style="color:rgba(255,255,255,0.4);">Preview ready. Want any adjustments?</span>
+              </div>
+            </div>
+            <!-- Input bar -->
+            <div style="margin-top:auto;display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:12px 16px;">
+              <span style="font-size:13px;color:rgba(255,255,255,0.25);flex:1;">Type an edit instruction...</span>
+              <button style="background:linear-gradient(135deg,#FF5C00,#FF9A3C);border:none;width:32px;height:32px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;">\u2192</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEMO 3: AI AVATAR ============ -->
+<section class="demo-section">
+  <div class="container">
+    <div class="demo-layout">
+      <div class="demo-visual reveal">
+        <div class="demo-image-wrapper">
+          <img src="../generated_images/generated_image_4cea0f49-77fe-49d3-89ee-7b45ee1be27b_0.png" alt="AI Avatar" />
+        </div>
+        <div class="demo-floating-badge badge-1">
+          <span class="badge-icon">\ud83e\uddec</span>
+          <span class="badge-text">Digital Twin created</span>
+        </div>
+      </div>
+
+      <div class="demo-content reveal reveal-delay-2">
+        <div class="section-label">\ud83e\uddec AI Avatars</div>
+        <h2 class="demo-title">Never record a <span class="gradient-text">video again</span></h2>
+        <p class="demo-desc">Turn a single selfie into a realistic talking avatar. Create a digital twin of yourself or build a custom AI spokesperson from scratch. Scale your content without stepping in front of a camera.</p>
+
+        <div class="demo-list">
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Create a digital twin from one photo in minutes
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Switch outfits, backgrounds and product placements
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Reuse the same AI actor across unlimited videos
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Realistic lip-sync with AI voice cloning
+          </div>
+          <div class="demo-list-item">
+            <div class="check">\u2713</div>
+            Perfect for ads, tutorials, social content & more
+          </div>
+        </div>
+        <a href="#signup" class="btn btn-primary">Create your avatar \u2192</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEO DEMO PLAYER ============ -->
+<section class="video-demo-section" id="demo">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\u25b6 Live Preview</div>
+      <h2 class="section-title">See <span class="gradient-text">Captions</span> in action</h2>
+      <p class="section-subtitle">Watch how raw footage transforms into a polished, captioned video \u2014 powered by AI, in real time.</p>
+    </div>
+
+    <div class="video-player-mock reveal">
+      <div class="video-player-header">
+        <div class="dot-red"></div>
+        <div class="dot-yellow"></div>
+        <div class="dot-green"></div>
+        <span style="margin-left:12px;font-size:13px;color:rgba(255,255,255,0.3);">captions.ai \u2014 Editor</span>
+      </div>
+      <div class="video-player-content" id="videoPlayer">
+        <div class="play-btn-large" id="playBtn" onclick="togglePlay()">\u25b6</div>
+        <div class="video-caption-preview" id="captionPreview">
+          The <span class="caption-word-highlight">future</span> is here.
+        </div>
+      </div>
+      <div class="video-player-controls">
+        <span class="vol-icon">\ud83d\udd0a</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progressFill">
+            <div class="progress-knob"></div>
+          </div>
+        </div>
+        <span class="time-display">0:14 / 0:59</span>
+        <span class="vol-icon" style="margin-left:auto;">\u26f6</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ALL FEATURES GRID ============ -->
+<section class="all-features" id="all-features">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\u26a1 Everything Included</div>
+      <h2 class="section-title">Everything you need to make <span class="gradient-text">better videos</span></h2>
+      <p class="section-subtitle">A complete creative suite powered by state-of-the-art AI \u2014 from auto-captions to voice cloning to generative B-roll.</p>
+    </div>
+
+    <div class="features-masonry">
+      <div class="fcard fcard-span2 reveal">
+        <span class="fcard-icon">\ud83c\udfac</span>
+        <h3 class="fcard-title">AI Editing</h3>
+        <p class="fcard-desc">Explore a library of 50+ diverse styles and transform your footage into a finished video in minutes. AI handles every cut, transition, zoom, and effect automatically.</p>
+        <span class="fcard-tag tag-orange">Most Popular</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-1">
+        <span class="fcard-icon">\ud83d\udcac</span>
+        <h3 class="fcard-title">Chat-Based Editor</h3>
+        <p class="fcard-desc">Use plain-language prompts to direct changes. "Make it snappier", "Add a retro vibe" \u2014 AI understands your intent.</p>
+        <span class="fcard-tag tag-purple">Max Plan</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-1">
+        <span class="fcard-icon">\ud83d\udcdd</span>
+        <h3 class="fcard-title">Automatic Captions</h3>
+        <p class="fcard-desc">Generate perfectly timed captions with 99% accuracy in 100+ languages. Choose from hundreds of trending caption styles.</p>
+        <span class="fcard-tag tag-blue">Pro+</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-2">
+        <span class="fcard-icon">\ud83c\udf0d</span>
+        <h3 class="fcard-title">AI Translation & Dubbing</h3>
+        <p class="fcard-desc">Translate and lip-dub your videos into 30+ languages. Reach a global audience without re-recording anything.</p>
+        <span class="fcard-tag tag-orange">New</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-2">
+        <span class="fcard-icon">\ud83e\uddec</span>
+        <h3 class="fcard-title">Realistic AI Actors</h3>
+        <p class="fcard-desc">Generate new AI characters from scratch or create a digital twin of yourself. Reuse across unlimited videos.</p>
+        <span class="fcard-tag tag-purple">Max Plan</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-3">
+        <span class="fcard-icon">\ud83d\udc41\ufe0f</span>
+        <h3 class="fcard-title">Eye Contact Correction</h3>
+        <p class="fcard-desc">Automatically fix inconsistent eye contact, awkward glances, and off-screen looks \u2014 AI aligns your gaze to the lens.</p>
+        <span class="fcard-tag tag-green">AI Magic</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-1">
+        <span class="fcard-icon">\ud83c\udfb5</span>
+        <h3 class="fcard-title">AI Music & Sound Effects</h3>
+        <p class="fcard-desc">Generate original royalty-free music tailored to your video's mood, or add punchy sound effects with one tap.</p>
+        <span class="fcard-tag tag-orange">Generative</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-2">
+        <span class="fcard-icon">\ud83d\udd07</span>
+        <h3 class="fcard-title">AI Denoise</h3>
+        <p class="fcard-desc">Remove background noise, echoes, and hiss from your recordings in seconds. Achieve studio-quality audio from any environment.</p>
+        <span class="fcard-tag tag-blue">Pro+</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-3">
+        <span class="fcard-icon">\u2702\ufe0f</span>
+        <h3 class="fcard-title">Trim Pauses & Filler Words</h3>
+        <p class="fcard-desc">Automatically detect and remove "um", "uh", and awkward silences. Get a tighter, more professional delivery instantly.</p>
+        <span class="fcard-tag tag-green">Time Saver</span>
+      </div>
+
+      <div class="fcard fcard-span2 reveal">
+        <span class="fcard-icon">\ud83c\udfa5</span>
+        <h3 class="fcard-title">AI B-Roll Generator</h3>
+        <p class="fcard-desc">Automatically generate and overlay contextually relevant B-roll footage based on what you're saying in your video. No stock footage library needed \u2014 AI creates custom visuals that perfectly match your narration.</p>
+        <span class="fcard-tag tag-purple">Generative AI</span>
+      </div>
+
+      <div class="fcard reveal">
+        <span class="fcard-icon">\ud83d\uddbc\ufe0f</span>
+        <h3 class="fcard-title">AI Image Generation</h3>
+        <p class="fcard-desc">Generate custom images, thumbnails, and graphics to complement your video \u2014 all from a text prompt.</p>
+        <span class="fcard-tag tag-orange">Max Plan</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-1">
+        <span class="fcard-icon">\ud83c\udfad</span>
+        <h3 class="fcard-title">AI Voice Clone</h3>
+        <p class="fcard-desc">Clone your own voice to generate new narration without re-recording. Maintain your authentic sound at scale.</p>
+        <span class="fcard-tag tag-purple">Scale Plan</span>
+      </div>
+
+      <div class="fcard reveal reveal-delay-2">
+        <span class="fcard-icon">\ud83d\udcf1</span>
+        <h3 class="fcard-title">Multi-Platform Export</h3>
+        <p class="fcard-desc">Export perfectly sized videos for TikTok, Instagram Reels, YouTube Shorts, LinkedIn, and more with one tap.</p>
+        <span class="fcard-tag tag-blue">All Plans</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how-it-works" id="how">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\ud83d\ude80 How It Works</div>
+      <h2 class="section-title">From upload to <span class="gradient-text">published</span> in 4 steps</h2>
+      <p class="section-subtitle">The fastest path from raw footage to polished, publish-ready content \u2014 no editing skills required.</p>
+    </div>
+
+    <div class="steps-grid">
+      <div class="step-card reveal">
+        <div class="step-number active">1</div>
+        <h3 class="step-title">Upload your video</h3>
+        <p class="step-desc">Import from your phone, camera, or drag-and-drop any file. MP4, MOV, AVI \u2014 all formats supported.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-1">
+        <div class="step-number">2</div>
+        <h3 class="step-title">Pick a style</h3>
+        <p class="step-desc">Choose from 50+ curated AI editing styles, or describe what you want in the chat editor.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-2">
+        <div class="step-number">3</div>
+        <h3 class="step-title">AI edits for you</h3>
+        <p class="step-desc">Captions automatically cuts, captions, adds B-roll, music, and effects \u2014 all in under 2 minutes.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-3">
+        <div class="step-number">4</div>
+        <h3 class="step-title">Export & share</h3>
+        <p class="step-desc">Download in 4K, or share directly to TikTok, Instagram, YouTube and more without leaving the app.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ UPLOAD DEMO ============ -->
+<section class="upload-demo" id="upload">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\ud83d\udce4 Try It Now</div>
+      <h2 class="section-title">Drop your video. <span class="gradient-text">Watch AI work.</span></h2>
+      <p class="section-subtitle">No account needed to try. Upload a clip and experience AI editing in real time.</p>
+    </div>
+
+    <div class="upload-box reveal" id="uploadBox" onclick="triggerUpload()">
+      <span class="upload-icon">\ud83c\udfac</span>
+      <h3 class="upload-title">Drop your video here</h3>
+      <p class="upload-subtitle">or click to browse from your computer</p>
+      <a href="#signup" class="btn btn-primary" style="margin-bottom:24px;" onclick="event.stopPropagation()">
+        <span>\u26a1</span> Start editing \u2014 it's free
+      </a>
+      <div class="upload-formats">
+        <span class="format-tag">MP4</span>
+        <span class="format-tag">MOV</span>
+        <span class="format-tag">AVI</span>
+        <span class="format-tag">MKV</span>
+        <span class="format-tag">WEBM</span>
+        <span class="format-tag">Up to 4K</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\u2b50 Testimonials</div>
+      <h2 class="section-title">Loved by <span class="gradient-text">2 million+</span> creators</h2>
+      <p class="section-subtitle">From solo content creators to enterprise teams \u2014 Captions powers the world's best video content.</p>
+    </div>
+  </div>
+
+  <div class="testimonials-track-wrapper">
+    <div class="testimonials-track">
+      <!-- Row 1 -->
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"I love it. Easy, simple but the results are complex and professional. Captions has completely changed how I make content."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#FF5C00,#FF9A3C);">D</div>
+          <div>
+            <div class="author-name">Dylan G.</div>
+            <div class="author-handle">@dylan_creates \u00b7 YouTube</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"When it comes to videos and editing, this is the best editor I have ever seen. The AI just gets what I'm going for."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#7C3AED,#C084FC);">Y</div>
+          <div>
+            <div class="author-name">Yuri B.</div>
+            <div class="author-handle">@yuribcreates \u00b7 TikTok</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"Reels with captions are a must and this app is a lifesaver. I used to spend hours adding captions manually. Now it takes seconds."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#EC4899,#F43F5E);">M</div>
+          <div>
+            <div class="author-name">Marina G.</div>
+            <div class="author-handle">@marinacontent \u00b7 Instagram</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"The AI avatar feature is mind-blowing. I created a digital twin and now generate 10x more content without being on camera every day."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#10B981,#34D399);">A</div>
+          <div>
+            <div class="author-name">Alex T.</div>
+            <div class="author-handle">@alextech \u00b7 YouTube</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"We use Captions for all our marketing videos. The translation feature alone has helped us expand into 8 new markets this year."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#3B82F6,#60A5FA);">S</div>
+          <div>
+            <div class="author-name">Sarah K.</div>
+            <div class="author-handle">VP Marketing \u00b7 Shopify Store</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"The denoise feature is insane. I filmed in a coffee shop and the AI cleaned up all the background noise. Crystal clear audio every time."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#F59E0B,#FBBF24);">J</div>
+          <div>
+            <div class="author-name">James R.</div>
+            <div class="author-handle">@jamesreviews \u00b7 TikTok</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"I post 5 videos a week now. Before Captions, I could barely manage 1. The AI does 90% of the editing work for me."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#8B5CF6,#A78BFA);">L</div>
+          <div>
+            <div class="author-name">Luna P.</div>
+            <div class="author-handle">@lunalifestyle \u00b7 Instagram</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"The chat editor changed everything for me. I just describe what I want and it does it. It's like having a professional editor on demand."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#EF4444,#F87171);">R</div>
+          <div>
+            <div class="author-name">Ryan M.</div>
+            <div class="author-handle">@ryanmedia \u00b7 YouTube</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate for loop -->
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"I love it. Easy, simple but the results are complex and professional. Captions has completely changed how I make content."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#FF5C00,#FF9A3C);">D</div>
+          <div>
+            <div class="author-name">Dylan G.</div>
+            <div class="author-handle">@dylan_creates \u00b7 YouTube</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"When it comes to videos and editing, this is the best editor I have ever seen. The AI just gets what I'm going for."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#7C3AED,#C084FC);">Y</div>
+          <div><div class="author-name">Yuri B.</div><div class="author-handle">@yuribcreates \u00b7 TikTok</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="testimonials-track testimonials-track-2">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"Our agency uses Captions for all client videos. The turnaround time went from 3 days to 3 hours. Our clients are blown away."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#0EA5E9,#38BDF8);">N</div>
+          <div><div class="author-name">Nina W.</div><div class="author-handle">Creative Director \u00b7 Video Agency</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"The eye contact correction feature is incredibly clever. My talking head videos look so much more professional and engaging now."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#F97316,#FB923C);">T</div>
+          <div><div class="author-name">Tom H.</div><div class="author-handle">@tomtalks \u00b7 LinkedIn</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"I run a small business and can't afford a video team. Captions is literally my entire video production department. It's that good."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#84CC16,#A3E635);">C</div>
+          <div><div class="author-name">Carlos M.</div><div class="author-handle">Small Business Owner</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"Caption templates alone are worth the subscription. The styles are trendy, beautiful, and my videos finally look like they belong on TikTok."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#D946EF,#E879F9);">K</div>
+          <div><div class="author-name">Kim L.</div><div class="author-handle">@kimlooks \u00b7 TikTok</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"The AI music generation is surprisingly great. It creates music that perfectly matches the energy of my videos. No more copyright issues!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#06B6D4,#22D3EE);">P</div>
+          <div><div class="author-name">Pedro V.</div><div class="author-handle">@pedrovlogs \u00b7 YouTube</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"10/10. Game changing. Seriously. I've tried every video editing tool out there and nothing comes close to what Captions can do with AI."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#6366F1,#818CF8);">B</div>
+          <div><div class="author-name">Ben A.</div><div class="author-handle">@benandrew \u00b7 YouTube</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"Our agency uses Captions for all client videos. The turnaround time went from 3 days to 3 hours. Our clients are blown away."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#0EA5E9,#38BDF8);">N</div>
+          <div><div class="author-name">Nina W.</div><div class="author-handle">Creative Director \u00b7 Video Agency</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <p class="testimonial-text">"I run a small business and can't afford a video team. Captions is literally my entire video production department. It's that good."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#84CC16,#A3E635);">C</div>
+          <div><div class="author-name">Carlos M.</div><div class="author-handle">Small Business Owner</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="pricing-section" id="pricing">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\ud83d\udcb3 Pricing</div>
+      <h2 class="section-title">Simple, transparent <span class="gradient-text">pricing</span></h2>
+      <p class="section-subtitle">Start free and scale as you grow. Every plan includes unlimited access to core editing features.</p>
+    </div>
+
+    <div class="pricing-toggle reveal">
+      <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+      <div class="toggle-switch" id="billingToggle" onclick="toggleBilling()"></div>
+      <span class="toggle-label" id="yearlyLabel">Yearly</span>
+      <span class="save-badge">Save 30%</span>
+    </div>
+
+    <div class="pricing-grid reveal">
+      <!-- Free -->
+      <div class="pricing-card">
+        <div class="plan-name">Free</div>
+        <div class="plan-desc">Get started with basic tools</div>
+        <div class="plan-price">
+          <span class="price-amount">$0</span>
+        </div>
+        <div class="price-note">Forever free</div>
+        <a href="#signup" class="btn btn-outline" style="width:100%;margin-bottom:4px;">Get started</a>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Basic trim & cut tools</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>1 caption template</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Standard export quality</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Teleprompter</li>
+          <li class="plan-feature dimmed"><span class="check-icon">\u2713</span>AI editing features</li>
+          <li class="plan-feature dimmed"><span class="check-icon">\u2713</span>No watermark export</li>
+        </ul>
+      </div>
+
+      <!-- Pro -->
+      <div class="pricing-card">
+        <div class="plan-name">Pro</div>
+        <div class="plan-desc">Access basic AI editing features</div>
+        <div class="plan-price">
+          <span class="price-currency">$</span>
+          <span class="price-amount" data-monthly="9.99" data-yearly="6.99">9.99</span>
+          <span class="price-period">/mo</span>
+        </div>
+        <div class="price-note">Billed monthly</div>
+        <a href="#signup" class="btn btn-outline" style="width:100%;margin-bottom:4px;">Get started</a>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Everything in Free</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Apply fast fixes to footage</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>100+ caption templates</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Captions in 100+ languages</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Export without watermarks</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Customizable caption styles</li>
+        </ul>
+      </div>
+
+      <!-- Max - Popular -->
+      <div class="pricing-card popular">
+        <div class="popular-badge">\u2b50 Most Popular</div>
+        <div class="plan-name">Max</div>
+        <div class="plan-desc">Full generative AI, avatars & more</div>
+        <div class="plan-price">
+          <span class="price-currency">$</span>
+          <span class="price-amount" data-monthly="24.99" data-yearly="17.49">24.99</span>
+          <span class="price-period">/mo</span>
+        </div>
+        <div class="price-note">Billed monthly</div>
+        <a href="#signup" class="btn btn-primary" style="width:100%;margin-bottom:4px;">Get started</a>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Everything in Pro</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>50+ AI Edit styles</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Create AI avatars & digital twins</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Chat-based AI editor</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>500 AI credits/month</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>AI B-roll, music & images</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>AI translation & lip-dub</li>
+        </ul>
+      </div>
+
+      <!-- Scale -->
+      <div class="pricing-card">
+        <div class="plan-name">Scale</div>
+        <div class="plan-desc">For power creators & teams</div>
+        <div class="plan-price">
+          <span class="price-currency">$</span>
+          <span class="price-amount" data-monthly="69.99" data-yearly="48.99">69.99</span>
+          <span class="price-period">/mo</span>
+        </div>
+        <div class="price-note">Billed monthly</div>
+        <a href="#signup" class="btn btn-outline" style="width:100%;margin-bottom:4px;">Get started</a>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Everything in Max</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>1,400 credits/month</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Most advanced AI models</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Scale 2x & 4x tiers available</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Priority processing</li>
+          <li class="plan-feature"><span class="check-icon">\u2713</span>Early beta feature access</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Enterprise -->
+    <div class="reveal" style="margin-top:24px;background:linear-gradient(135deg,rgba(255,92,0,0.05),rgba(124,58,237,0.05));border:1px solid rgba(255,92,0,0.15);border-radius:24px;padding:40px 48px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:32px;">
+      <div>
+        <div style="font-family:'Sora',sans-serif;font-size:22px;font-weight:700;margin-bottom:8px;">Enterprise</div>
+        <p style="font-size:15px;color:rgba(255,255,255,0.6);line-height:1.6;margin-bottom:16px;">Build a custom package for your company. Includes bulk credits, dedicated support, custom onboarding, and training data exclusion.</p>
+        <div style="display:flex;gap:24px;flex-wrap:wrap;">
+          <span style="font-size:13px;color:rgba(255,255,255,0.5);display:flex;align-items:center;gap:6px;"><span style="color:#10B981;">\u2713</span> Custom seat options</span>
+          <span style="font-size:13px;color:rgba(255,255,255,0.5);display:flex;align-items:center;gap:6px;"><span style="color:#10B981;">\u2713</span> Dedicated account manager</span>
+          <span style="font-size:13px;color:rgba(255,255,255,0.5);display:flex;align-items:center;gap:6px;"><span style="color:#10B981;">\u2713</span> Training data exclusion</span>
+          <span style="font-size:13px;color:rgba(255,255,255,0.5);display:flex;align-items:center;gap:6px;"><span style="color:#10B981;">\u2713</span> Priority support & onboarding</span>
+        </div>
+      </div>
+      <div style="text-align:center;flex-shrink:0;">
+        <div style="font-family:'Sora',sans-serif;font-size:28px;font-weight:800;margin-bottom:4px;">Custom</div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.4);margin-bottom:20px;">Pricing</div>
+        <a href="#contact" class="btn btn-primary">Contact Sales \u2192</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING TABLE ============ -->
+<section class="pricing-table-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title" style="font-size:32px;">Compare all features</h2>
+    </div>
+    <div class="pricing-table-wrapper reveal">
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th style="text-align:left;">Feature</th>
+            <th>Free</th>
+            <th>Pro</th>
+            <th style="background:rgba(255,92,0,0.06);">Max \u2b50</th>
+            <th>Scale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="category-row">
+            <td colspan="5">Traditional Editing</td>
+          </tr>
+          <tr><td>Trim & Cut</td><td><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>Teleprompter</td><td><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>Zoom & Transitions</td><td><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>Resize for platforms</td><td><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+
+          <tr class="category-row">
+            <td colspan="5">Captions</td>
+          </tr>
+          <tr><td>Auto captions (100+ languages)</td><td><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>Caption templates</td><td>1</td><td>100+</td><td class="table-popular-col">100+</td><td>100+</td></tr>
+          <tr><td>Customizable styles</td><td><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>Download transcript</td><td><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+
+          <tr class="category-row">
+            <td colspan="5">AI Video Generation</td>
+          </tr>
+          <tr><td>AI Edit (one-tap)</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>Chat-based editor</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>AI Avatars / Digital Twin</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>AI B-Roll generation</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>AI Music & Sound effects</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+
+          <tr class="category-row">
+            <td colspan="5">AI Audio & Translation</td>
+          </tr>
+          <tr><td>AI Translate & Lip-dub</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>AI Denoise</td><td><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>AI Voice Clone</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>Eye contact correction</td><td><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+
+          <tr class="category-row">
+            <td colspan="5">Export & Credits</td>
+          </tr>
+          <tr><td>Export without watermark</td><td><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td><td class="table-popular-col"><span class="check-green">\u2713</span></td><td><span class="check-green">\u2713</span></td></tr>
+          <tr><td>AI usage credits/month</td><td>None</td><td>Low</td><td class="table-popular-col">500</td><td>1,400+</td></tr>
+          <tr><td>Advanced AI models</td><td><span class="dash-gray">\u2014</span></td><td><span class="dash-gray">\u2014</span></td><td class="table-popular-col"><span class="dash-gray">\u2014</span></td><td><span class="check-green">\u2713</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APP DOWNLOAD ============ -->
+<section class="download-section" id="download">
+  <div class="container">
+    <div class="download-layout">
+      <div class="phones-mockup reveal">
+        <!-- Phone 1 -->
+        <div class="phone-mock phone-1">
+          <div class="phone-screen">
+            <div class="phone-ui-video">\ud83c\udfac<div style="position:absolute;bottom:8px;left:8px;right:8px;background:rgba(0,0,0,0.5);border-radius:4px;padding:4px 6px;font-size:8px;font-weight:700;color:white;">AI EDITING...</div></div>
+            <div class="phone-caption-bar">CREATING YOUR VIDEO</div>
+            <div class="phone-ui-element"></div>
+            <div class="phone-ui-element" style="width:70%;height:6px;"></div>
+          </div>
+        </div>
+        <!-- Phone 2 -->
+        <div class="phone-mock phone-2" style="width:240px;">
+          <div class="phone-screen" style="background:linear-gradient(180deg,#0a0a0a 0%,#00051a 100%);">
+            <div class="phone-ui-video" style="background:linear-gradient(135deg,rgba(124,58,237,0.3),rgba(59,130,246,0.2));">\ud83e\uddec<div style="position:absolute;bottom:8px;left:8px;right:8px;background:rgba(0,0,0,0.6);border-radius:4px;padding:4px 6px;font-size:8px;font-weight:700;color:white;">AI AVATAR READY</div></div>
+            <div class="phone-caption-bar" style="background:rgba(124,58,237,0.9);">YOUR DIGITAL TWIN</div>
+            <div class="phone-ui-element"></div>
+            <div class="phone-ui-element" style="width:80%;height:6px;"></div>
+          </div>
+        </div>
+        <!-- Glow effects -->
+        <div style="position:absolute;width:300px;height:300px;background:radial-gradient(circle,rgba(255,92,0,0.15),transparent 70%);bottom:-50px;left:50%;transform:translateX(-50%);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <div class="section-label">\ud83d\udcf1 Download the App</div>
+        <h2 class="section-title" style="text-align:left;font-size:clamp(32px,4vw,48px);">Create anywhere, <span class="gradient-text">anytime</span></h2>
+        <p class="section-subtitle" style="text-align:left;margin-bottom:36px;">The full power of Captions AI in your pocket. Available on iOS and Android \u2014 and now on web too.</p>
+
+        <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:40px;">
+          <a href="#" class="store-btn" style="width:fit-content;padding:16px 24px;">
+            <span class="store-icon" style="font-size:28px;">\ud83c\udf4e</span>
+            <div class="store-text">
+              <div class="store-label">Download on the</div>
+              <div class="store-name" style="font-size:16px;">App Store</div>
+            </div>
+          </a>
+          <a href="#" class="store-btn" style="width:fit-content;padding:16px 24px;">
+            <span class="store-icon" style="font-size:28px;">\u25b6</span>
+            <div class="store-text">
+              <div class="store-label">Get it on</div>
+              <div class="store-name" style="font-size:16px;">Google Play</div>
+            </div>
+          </a>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div style="background:#111;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:20px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;font-family:'Sora',sans-serif;background:linear-gradient(135deg,#FF5C00,#FF9A3C);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">4.8\u2605</div>
+            <div style="font-size:12px;color:rgba(255,255,255,0.4);margin-top:4px;">App Store Rating</div>
+          </div>
+          <div style="background:#111;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:20px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;font-family:'Sora',sans-serif;background:linear-gradient(135deg,#FF5C00,#FF9A3C);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">2M+</div>
+            <div style="font-size:12px;color:rgba(255,255,255,0.4);margin-top:4px;">Active Creators</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">\u2753 FAQ</div>
+      <h2 class="section-title">Frequently asked <span class="gradient-text">questions</span></h2>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          How do I get Captions?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Captions is available on iOS (App Store), Android (Google Play), and on the web at captions.ai. Download the app for the best mobile experience, or use the web version for desktop editing with your browser.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          Is Captions free to use?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Captions is free to download and includes basic editing tools. To unlock AI editing, avatar creation, 100+ caption templates, and all generative features, you'll want a Pro, Max, or Scale plan. You can explore plans starting at $9.99/month.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          What languages does Captions support?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Captions generates auto-captions in 100+ languages with high accuracy. The AI translation and lip-dub feature supports dubbing into 30+ languages, allowing you to reach a global audience without re-recording your content.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          How does the AI editing work?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Simply upload your video and pick a style. Captions' AI analyzes your footage, cuts scenes intelligently, adds B-roll, syncs music, applies transitions, and generates captions \u2014 all automatically. The whole process takes under 2 minutes.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          Can I switch plans at any time?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Yes! You can upgrade or downgrade at any time from your account settings. Upgrades take effect immediately with prorated billing. Downgrades remain active until the end of your current billing cycle. No hidden fees or penalties.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          Do AI credits expire?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Unused credits roll over to the next month. Your balance can hold up to 3x your monthly allowance \u2014 so up to two months of unused credits are saved for you. This means you can bank credits during slow months and use them when you need to produce more.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          What video formats are supported?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Captions supports all major formats including MP4, MOV, AVI, MKV, and WEBM. You can import vertical (9:16) and horizontal (16:9) videos, up to 4K resolution. Export options include all major social media aspect ratios.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-question">
+          Is there an Enterprise plan?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Yes! Enterprise plans include custom pricing, bulk credit discounts, dedicated account management, priority support, custom onboarding, and training data exclusion. Contact our sales team to build a custom package for your organization.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA SECTION ============ -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal">
+      <div class="cta-content">
+        <div class="section-label" style="margin:0 auto 24px;display:inline-flex;">\u2726 Start Creating Today</div>
+        <h2 class="cta-title">
+          Start creating.<br>
+          <span class="gradient-text">It's free.</span>
+        </h2>
+        <p class="cta-subtitle">Join 2 million+ creators who use Captions to make professional videos in minutes, not hours.</p>
+        <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+          <a href="#signup" class="btn btn-primary btn-lg">
+            <span>\ud83c\udfac</span> Get started free
+          </a>
+          <a href="#download" class="btn btn-secondary btn-lg">
+            <span>\ud83d\udcf1</span> Download the app
+          </a>
+        </div>
+        <p style="margin-top:20px;font-size:13px;color:rgba(255,255,255,0.3);">No credit card required \u00b7 Free forever plan available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-logo">
+          <div class="footer-brand-logo-icon">\u2726</div>
+          Captions
+        </div>
+        <p class="footer-desc">AI that edits your video like a professional would. Transform footage into polished, publish-ready content in minutes.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Twitter/X">\ud835\udd4f</a>
+          <a href="#" class="social-link" title="Instagram">\ud83d\udcf8</a>
+          <a href="#" class="social-link" title="TikTok">\u266a</a>
+          <a href="#" class="social-link" title="YouTube">\u25b6</a>
+          <a href="#" class="social-link" title="LinkedIn">in</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Product</div>
+        <div class="footer-links">
+          <a href="#features">Overview</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#download">Download</a>
+          <a href="#features">AI Edit</a>
+          <a href="#features">AI Avatars</a>
+          <a href="#features">Chat Editor</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Solutions</div>
+        <div class="footer-links">
+          <a href="#solutions">Enterprise</a>
+          <a href="#solutions">Agencies</a>
+          <a href="#solutions">Small Business</a>
+          <a href="#solutions">Content Creators</a>
+          <a href="#solutions">Educators</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Resources</div>
+        <div class="footer-links">
+          <a href="#blog">Blog</a>
+          <a href="#research">Research</a>
+          <a href="#help">Help Center</a>
+          <a href="#careers">Careers</a>
+          <a href="#press">Press Kit</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Company</div>
+        <div class="footer-links">
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact</a>
+          <a href="#press">Press</a>
+          <a href="#investors">Investors</a>
+          <a href="#security">Security</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-legal">\u00a9 2025 Captions AI, Inc. All rights reserved.</p>
+      <div class="footer-legal-links">
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+        <a href="#security">Security</a>
+        <a href="#cookies">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ JAVASCRIPT ============ -->
+<script>
+// ---- Navbar scroll effect ----
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 20) {
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
+});
+
+// ---- Mobile menu ----
+const menuBtn = document.getElementById('menuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+let menuOpen = false;
+
+menuBtn.addEventListener('click', () => {
+  menuOpen = !menuOpen;
+  mobileMenu.classList.toggle('open', menuOpen);
+  const spans = menuBtn.querySelectorAll('span');
+  if (menuOpen) {
+    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+    spans[1].style.opacity = '0';
+    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+  } else {
+    spans[0].style.transform = '';
+    spans[1].style.opacity = '';
+    spans[2].style.transform = '';
+  }
+});
+
+// Close mobile menu on link click
+mobileMenu.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    menuOpen = false;
+    mobileMenu.classList.remove('open');
+    const spans = menuBtn.querySelectorAll('span');
+    spans.forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
+  });
+});
+
+// ---- Billing toggle ----
+let isYearly = false;
+const billingToggle = document.getElementById('billingToggle');
+const monthlyLabel = document.getElementById('monthlyLabel');
+const yearlyLabel = document.getElementById('yearlyLabel');
+
+function toggleBilling() {
+  isYearly = !isYearly;
+  billingToggle.classList.toggle('on', isYearly);
+  monthlyLabel.classList.toggle('active', !isYearly);
+  yearlyLabel.classList.toggle('active', isYearly);
+
+  document.querySelectorAll('.price-amount[data-monthly]').forEach(el => {
+    const monthly = parseFloat(el.dataset.monthly);
+    const yearly = parseFloat(el.dataset.yearly);
+    el.textContent = isYearly ? yearly.toFixed(2) : monthly.toFixed(2);
+  });
+
+  document.querySelectorAll('.price-note').forEach(el => {
+    if (el.textContent.includes('Billed')) {
+      el.textContent = isYearly ? 'Billed annually' : 'Billed monthly';
+    }
+  });
+}
+
+// ---- FAQ toggle ----
+function toggleFaq(item) {
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+
+// ---- Video player mock ----
+let playing = false;
+let progress = 35;
+let captionInterval;
+
+const captions = [
+  'The <span class="caption-word-highlight">future</span> is here.',
+  'AI edits like a <span class="caption-word-highlight">pro</span>.',
+  'Your <span class="caption-word-highlight">creative</span> partner.',
+  'Just <span class="caption-word-highlight">upload</span> and go.',
+  'Made with <span class="caption-word-highlight">Captions</span>.',
+];
+let captionIndex = 0;
+
+function togglePlay() {
+  playing = !playing;
+  const btn = document.getElementById('playBtn');
+  const fill = document.getElementById('progressFill');
+
+  if (playing) {
+    btn.textContent = '\u23f8';
+    btn.style.background = 'rgba(255,255,255,0.15)';
+
+    captionInterval = setInterval(() => {
+      if (progress >= 100) {
+        progress = 0;
+        playing = false;
+        btn.textContent = '\u25b6';
+        btn.style.background = 'rgba(255,92,0,0.9)';
+        clearInterval(captionInterval);
+        return;
+      }
+      progress += 0.5;
+      fill.style.width = progress + '%';
+
+      if (Math.round(progress) % 15 === 0) {
+        captionIndex = (captionIndex + 1) % captions.length;
+        document.getElementById('captionPreview').innerHTML = captions[captionIndex];
+      }
+    }, 100);
+  } else {
+    btn.textContent = '\u25b6';
+    btn.style.background = 'rgba(255,92,0,0.9)';
+    clearInterval(captionInterval);
+  }
+}
+
+// ---- Upload box hover ----
+const uploadBox = document.getElementById('uploadBox');
+if (uploadBox) {
+  uploadBox.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    uploadBox.style.borderColor = 'rgba(255,92,0,0.6)';
+    uploadBox.style.background = 'rgba(255,92,0,0.04)';
+  });
+  uploadBox.addEventListener('dragleave', () => {
+    uploadBox.style.borderColor = '';
+    uploadBox.style.background = '';
+  });
+  uploadBox.addEventListener('drop', (e) => {
+    e.preventDefault();
+    uploadBox.style.borderColor = '';
+    uploadBox.style.background = '';
+    alert('\ud83c\udfac Video detected! Sign up free to start editing with AI.');
+  });
+}
+
+function triggerUpload() {
+  // redirect to signup
+  window.location.href = '#signup';
+}
+
+// ---- Scroll reveal ----
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+// ---- Smooth anchor scroll ----
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    if (href === '#') return;
+    const target = document.querySelector(href);
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// ---- Number counter animation ----
+function animateCounter(el, end, duration = 2000) {
+  const start = 0;
+  const step = (end / duration) * 16;
+  let current = start;
+  const timer = setInterval(() => {
+    current += step;
+    if (current >= end) {
+      current = end;
+      clearInterval(timer);
+    }
+    el.textContent = Math.floor(current) + (el.dataset.suffix || '');
+  }, 16);
+}
+
+// ---- Hero floating elements parallax ----
+window.addEventListener('mousemove', (e) => {
+  const orbs = document.querySelectorAll('.hero-orb');
+  const x = (e.clientX / window.innerWidth - 0.5) * 30;
+  const y = (e.clientY / window.innerHeight - 0.5) * 30;
+
+  orbs.forEach((orb, i) => {
+    const factor = (i + 1) * 0.3;
+    orb.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
+  });
+});
+
+// ---- Active nav link on scroll ----
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 100;
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.style.color = '';
+    if (link.getAttribute('href') === '#' + current) {
+      link.style.color = 'white';
+    }
+  });
+});
+
+console.log('\ud83c\udfac Captions AI Website loaded successfully!');
+</script>
+</body>
+</html>
+
